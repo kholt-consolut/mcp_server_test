@@ -1,0 +1,11 @@
+---
+applications:
+- name: mcp_demo
+  random-route: true
+  path: ./
+  memory: 512M
+  disk_quota: 1024M
+  instances: 2
+  buildpacks: 
+  - python_buildpack
+  command: python server.py
