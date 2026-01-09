@@ -3,3 +3,6 @@
 /resources/
 
 .venv
+__pycache__
+
+*.ipynb
